@@ -1,0 +1,84 @@
+@media (max-width: 576px) {
+    #board {
+        // position: relative;
+        width: 576px;
+        height: 720px;
+        margin: auto;
+        background: url("../img/min_board.jpg") no-repeat;
+    }
+    table {
+        position: absolute;
+        left: 96px;
+        top: 48px;
+        border-spacing: 0px;
+        width: 380px;
+    }
+    td {
+        width: 54px;
+        height: 54px;
+    }
+    #formUse {
+        position: absolute;
+        bottom: 120px;
+        right: 170px;
+        padding: 15px;
+        background-color: #53af13;
+        border-radius: 10px;
+    }
+    #guessInput {
+        background-color: #98cf71;
+        border-color: #53af13;
+        font-size: 1em;
+        border-radius: 10px;
+        outline: none;
+        padding: 3px;
+        display: block;
+        text-align: center;
+    }
+    #fireButton {
+        background-color: #98cf71;
+        border-color: #53af13;
+        font-size: 1em;
+        border-radius: 10px;
+        outline: none;
+        padding: 7px;
+        display: block;
+        margin-left: 31px;
+        width: 145px;
+    }
+    #messageArea {
+        position: absolute;
+        top: 620px;
+        color: #53af13;
+        font-size: 30px;
+        width: 576px;
+        text-align: center;
+    }
+    #see {
+        position: absolute;
+        top: 665px;
+        color: #53af13;
+        font-size: 20px;
+        width: 576px;
+        text-align: center;
+    }
+    #messageVersion {
+        position: absolute;
+        top: 700px;
+        left: 250px;
+        color: #53af13;
+        font-size: 30px;
+        border: 1px solid #98cf71;
+        background-color: #98cf71;
+        border-radius: 10px;
+    }
+    .hit {
+        background: url("../img/min_ship.png") no-repeat center center;
+    }
+    .ship_hit {
+        background: url("../img/min_ship_hit.png") no-repeat center center;
+    }
+    .miss {
+        background: url("../img/min_miss.png") no-repeat center center;
+    }
+}
