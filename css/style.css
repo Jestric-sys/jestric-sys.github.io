@@ -9,21 +9,22 @@ td{width:94px;height:94px}
 #messageVersion:active{background-color:#98cf71}
 #linkVersion{text-decoration:none;color:#000;padding:10px}
 #formUse{position:absolute;bottom:0;right:0;padding:15px;background-color:#53af13;border-radius:10px}
-#guessInput{background-color:#98cf71;border-color:#53af13;font-size:1em;border-radius:10px;outline:0;padding:3px}
+#guessInput{background-color:#98cf71;border-color:#53af13;font-size:1em;border-radius:10px;outline:0;padding:3px;text-transform:uppercase}
 #fireButton{background-color:#98cf71;border-color:#53af13;font-size:1em;border-radius:10px;outline:0;padding:3px}
 .hit{background:url(../img/ship.png) no-repeat center center}
 .ship_hit{background:url(../img/ship_hit.png) no-repeat center center}
 .miss{background:url(../img/miss.png) no-repeat center center}
-@media (max-width:576px){
-#board{width:576px;height:720px;margin:auto;background:url(../img/min_board.jpg) no-repeat}
-table{position:absolute;left:96px;top:48px;border-spacing:0;width:380px}
-td{width:54px;height:54px}
-#formUse{position:absolute;bottom:120px;right:170px;padding:15px;background-color:#53af13;border-radius:10px}
+@media (max-width:375px){
+body{overflow:hidden}
+#board{width:375px;height:590px;margin:auto;background:url(../img/min_board.jpg) no-repeat}
+table{position:absolute;left:66px;top:38px;border-spacing:0;width:266px}
+td{width:54px;height:36px}
+#formUse{position:absolute;bottom:150px;right:60px;padding:15px;background-color:#53af13;border-radius:10px}
 #guessInput{background-color:#98cf71;border-color:#53af13;font-size:1em;border-radius:10px;outline:0;padding:3px;display:block;text-align:center}
 #fireButton{background-color:#98cf71;border-color:#53af13;font-size:1em;border-radius:10px;outline:0;padding:7px;display:block;margin-left:31px;width:145px}
-#messageArea{position:absolute;top:620px;color:#53af13;font-size:30px;width:576px;text-align:center}
-#see{position:absolute;top:665px;color:#53af13;font-size:20px;width:576px;text-align:center}
-#messageVersion{position:absolute;top:700px;left:250px;color:#53af13;font-size:30px;border:1px solid #98cf71;background-color:#98cf71;border-radius:10px}
+#messageArea{position:absolute;top:450px;color:#53af13;font-size:25px;width:375px;text-align:center}
+#see{position:absolute;top:505px;color:#53af13;font-size:20px;width:375px;text-align:center}
+#messageVersion{position:absolute;top:540px;left:160px;color:#53af13;font-size:30px;border:1px solid #98cf71;background-color:#98cf71;border-radius:10px}
 .hit{background:url(../img/min_ship.png) no-repeat center center}
 .ship_hit{background:url(../img/min_ship_hit.png) no-repeat center center}
 .miss{background:url(../img/min_miss.png) no-repeat center center}
