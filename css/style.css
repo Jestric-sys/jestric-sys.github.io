@@ -2,7 +2,8 @@ body{background-color:#000}
 #board{position:relative;width:1024px;height:863px;margin:auto;background:url(../img/board.jpg) no-repeat}
 table{position:absolute;left:173px;top:98px;border-spacing:0}
 td{width:94px;height:94px}
-#messageArea{position:absolute;top:0;left:0;color:#53af13;font-size:40px}
+#messageArea{position:absolute;top:0;left:5px;color:#53af13;font-size:40px}
+#see{position:absolute;top:45px;left:5px;color:#53af13;font-size:30px}
 #messageVersion{position:absolute;top:800px;left:80px;color:#53af13;font-size:30px;border:1px solid #98cf71;background-color:#98cf71;border-radius:10px}
 #messageVersion:hover{background-color:#53af13}
 #messageVersion:active{background-color:#98cf71}
@@ -12,4 +13,5 @@ td{width:94px;height:94px}
 #guessInput{padding:3px}
 #fireButton{padding:3px}
 .hit{background:url(../img/ship.png) no-repeat center center}
+.ship_hit{background:url(../img/ship_hit.png) no-repeat center center}
 .miss{background:url(../img/miss.png) no-repeat center center}
